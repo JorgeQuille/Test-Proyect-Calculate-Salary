@@ -62,25 +62,18 @@ The amount to pay ASTRID is: 85 USD
 
 Solution
 
-The system is implemented in java maven project, in which it is based on the Model View Controller. In the project you can find the packages: 
-com.mycompany.testioet.model, where the classes are implemented: 
-
-•	Day
-•	Employee
-•	Person
-•	Schedule
-
-com.mycompany.testioet.controller, where the following classes are implemented: 
-
-•	EmployeeController
-•	ScheduleController
-
-com.mycompany.testioet.main, where the system executor class is located.
+1. Analysis of the requirements given in the problem to be solved. 
+2. For the design I used the architecture model view controller. In this phase we identified the classes that would be the model (Day, Person, Employee, Schedule), control classes (EmployeeController and ScheduleController), and the Main class (View) which is in charge of executing the application. The separation of classes, attributes and methods is done based on the relational model.
+3. The implementation was done in the Java maven programming language, with a functional and object-based programming paradigm.
+4. Unit tests (development-testing) and integral tests were performed. As well as the use of the Junit external library.
 
 System execution
 
-The system is executed from the main class Main, which is located in the com.mycompany.testioet.main package. In the execution a sale will be shown to enter the .txt file with the data of the employee(s) to calculate their salary.
-The result will be shown in a result window.
+Steps to run the application:
+1. Download or clone the java maven project.
+2. Execute the executable file ExecuteApp.jar located in the Target folder.
+3. Choose the .txt file with the employee(s) data to process (The format of the input data is as given in the problem requirements).
+4. After selecting the file the resulting data will be displayed in an informative window. 
 
 Test execution
 
